@@ -16,21 +16,21 @@
                 <div>
                     <a href="/index.html">
                         <!-- Logo for smaller screens -->
-                        <img src="/src/icons/logo.png" alt="logo" class="w-32 h-10 md:hidden ml-2" />
+                        <img src="/src/icons/logo.png" alt="logo" class="w-32 h-10 md:hidden ml-2 transition duration-500 hover:scale-125" />
                         <!-- Logo for larger screens -->
-                        <img src="/src/icons/logo.png" alt="logo" class="w-44 h-12 md:max-w-full md:block hidden ml-5" />
+                        <img src="/src/icons/logo.png" alt="logo" class="w-44 h-12 md:max-w-full md:block hidden ml-5 transition duration-500 hover:scale-125" />
                     </a>
                 </div>
-                <!-- Button for smaller screens -->
+                <!-- Button for larger screens -->
                 <a href="/src/icons/resume.pdf" download="COMIA, Christiane May - Resume">
-                    <button class="hidden lg:block font-inter text-xs tracking-widest rounded-md bg-btn-color hover:bg-hover-color text-white py-2 px-6 mr-5 float-right">
+                    <button class="hidden md:block font-inter text-xs tracking-widest rounded-md bg-btn-color hover:bg-hover-color text-white py-2 px-6 mr-5 float-right transition duration-500 hover:scale-125">
                         DOWNLOAD CV
                     </button>
                 </a>
-                <!-- Button for larger screens -->
-                <div class="lg:hidden">
+                <!-- Button for smaller screens -->
+                <div class="md:hidden">
                     <a href="/src/icons/resume.pdf" download="COMIA, Christiane May - Resume">
-                        <div class="flex items-center justify-center w-10 h-10 bg-potter-clay rounded-full">
+                        <div class="flex items-center justify-center w-10 h-10 bg-potter-clay rounded-full hover:bg-hover-color transition duration-500 hover:scale-125">
                             <img src="/src/icons/download.png" alt="download icon" class="w-6 h-6" />
                         </div>
                     </a>
@@ -40,15 +40,15 @@
 
             <!-- Content -->
             <div class="container mx-auto px-4">
-                <div class="grid grid-cols-1 gap-8 py-8 px-8 lg:grid-cols-5">
+                <div class="grid grid-cols-1 gap-8 py-8 px-8 md:grid-cols-5">
                     <!-- Grid Item 1 -->
-                    <div class="flex flex-row items-center justify-center lg:col-span-1">
+                    <div class="flex flex-row items-center justify-center md:col-span-1 animate-fadeIn">
                         <div class="h-auto md:h-full w-full bg-dark-teal opacity-85 rounded-3xl p-8 md:p-8 font-hammersmith-one text-rose-white relative justify-center items-center flex flex-col">
                             <!-- Profile Picture -->
                             <div class="flex items-center justify-center w-full">
                                 <div class="flex items-center justify-center border-8 border-potter-clay rounded-full">
                                     <div class="flex items-center justify-center rounded-full bg-white opacity-95"> 
-                                        <img src="/src/icons/pic.jpg" alt="profile" class="rounded-full w-40 lg:w-40" />
+                                        <img src="/src/icons/pic.jpg" alt="profile" class="rounded-full w-40 md:w-40" />
                                     </div>
                                 </div>
                             </div>
@@ -64,13 +64,13 @@
                     
                             <div class="mt-10 gap-4 relative flex items-center justify-center">
                                 <a href="https://bit.ly/3MkhAv0" target="_blank" rel="noopener noreferrer">
-                                    <img src="/src/icons/facebook.png" alt="Facebook" class="h-12 w-12 md:h-10 md:w-10 rounded-full" />
+                                    <img src="/src/icons/facebook.png" alt="Facebook" class="h-12 w-12 md:h-10 md:w-10 rounded-full transition duration-500 hover:scale-125" />
                                 </a>
                                 <a href="https://bit.ly/3PrTEsE" target="_blank" rel="noopener noreferrer">
-                                    <img src="/src/icons/linkedin.png" alt="LinkedIn" class="h-12 w-h-px12 md:h-10 md:w-10 rounded-full" />
+                                    <img src="/src/icons/linkedin.png" alt="LinkedIn" class="h-12 w-h-px12 md:h-10 md:w-10 rounded-full transition duration-500 hover:scale-125" />
                                 </a>
                                 <a href="mailto:comiachristianem@gmail.com" class="hover:underline">
-                                    <img src="/src/icons/gmail.jpg" alt="Gmail" class="h-12 w-12 md:h-10 md:w-10 rounded-full" />
+                                    <img src="/src/icons/gmail.jpg" alt="Gmail" class="h-12 w-12 md:h-10 md:w-10 rounded-full transition duration-500 hover:scale-125" />
                                 </a>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                             
 
                     <!-- Grid Item 2 -->
-                    <div class="flex flex-col justify-between col-span-full lg:col-span-2">
+                    <div class="flex flex-col justify-between col-span-full md:col-span-2 animate-fadeIn">
                         <div class="h-auto md:h-1/2 w-auto bg-potter-clay opacity-90 rounded-3xl p-5 font-hammersmith-one text-rose-white">
                             <div>SKILLS</div>
                             <hr class="h-px" />
@@ -138,17 +138,17 @@
                             </ul>
                             <div class="my-8 relative flex items-center justify-center">
                                 <a href="https://bit.ly/3IIgPvg" target="_blank" rel="noopener noreferrer">
-                                    <img src="/src/icons/github.png" alt="GitHub" class="h-12 w-12 md:h-10 md:w-10 rounded-full" />
+                                    <img src="/src/icons/github.png" alt="GitHub" class="h-12 w-12 md:h-10 md:w-10 rounded-full transition duration-500 hover:scale-125" />
                                 </a>
                                 <a href="https://nashdeveloper.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">
-                                    <img src="/src/icons/sikyu.png" alt="SIKYUrity" class="h-12 w-12 md:h-10 md:w-10 rounded-full ml-4" />
+                                    <img src="/src/icons/sikyu.png" alt="SIKYUrity" class="h-12 w-12 md:h-10 md:w-10 rounded-full ml-4 transition duration-500 hover:scale-125" />
                                 </a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Grid Item 3 -->
-                    <div class="flex flex-col justify-between col-span-full lg:col-span-2">
+                    <div class="flex flex-col justify-between col-span-full md:col-span-2 animate-fadeIn">
                         <div class="h-auto w-auto md:h-3/4 bg-potter-clay opacity-90 md:opacity-80 rounded-3xl p-5 font-hammersmith-one text-rose-white">
                             <div>EDUCATION</div>
                             <hr class="h-px"/>
